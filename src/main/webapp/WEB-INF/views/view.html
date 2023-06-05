@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Wellcome</h1>
+<h3> Account: <a th:text="${user.getAccount()}"></a> </h3>
+<h3> Name: <a th:text="${user.getName()}"></a> </h3>
+<h3> Email: <a th:text="${user.getEmail()}"></a> </h3>
+<h3> Age: <a th:text="${user.getAge()}"></a> </h3>
+</body>
+</html>
